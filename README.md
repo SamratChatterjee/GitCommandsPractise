@@ -1,2 +1,0 @@
-# GitCommandsPractise
-GitCommandsPractise demo
