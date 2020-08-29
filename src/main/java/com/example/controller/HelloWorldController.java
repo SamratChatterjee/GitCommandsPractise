@@ -18,4 +18,9 @@ public class HelloWorldController {
         return "Greetings from Spring Boot!";
     }
 
+    @RequestMapping("/books/{bookName}")
+    public String index2(@PathVariable("bookName") String bookName) {
+        return ("Greetings from Spring Boot!" + bookName);
+    }
+
 }
